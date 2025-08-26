@@ -1,0 +1,83 @@
+# Course Detail Pages Prompt for Tech EduVate
+
+Enhance the existing Tech EduVate website by creating **dynamic course detail pages** for all 5 courses.  
+
+## Requirements
+- When a visitor clicks **"Learn More"** on any course card in `/courses` page, they should be redirected to that course’s detail page.  
+- Use **React Router** for navigation (e.g., `/courses/devops`, `/courses/devsecops`, `/courses/aws`, `/courses/azure`, `/courses/gcp`).  
+- Each course page should reuse the **same professional layout** with different content.  
+- The design must match the homepage (style, animations, colors).  
+
+---
+
+## Course Detail Page Layout
+### Hero Section
+- Large heading: Course Name (e.g., *DevOps Mastery*).  
+- Background gradient animation.  
+- Short subtitle tagline (e.g., *“Master CI/CD, Kubernetes, and Infrastructure as Code.”*).  
+
+### About the Course
+- 2–3 paragraphs explaining the course.  
+
+### Course Outline (Expandable Accordion or List)
+- List all modules and topics.  
+- Each module should expand/collapse for readability.  
+
+### Duration & Pricing
+- Show clear details like:  
+  - Duration: *10 weeks*  
+  - Price: *₹19,999* (adjust per course).  
+
+### What You’ll Learn
+- Bullet list of learning outcomes (skills, certifications, projects).  
+
+### Enroll & Payment Section
+- Prominent **"Enroll Now"** button.  
+- Payment integration placeholder (Stripe/PayPal).  
+- Simple form (Name, Email, Phone).  
+
+### Call-to-Action
+- Motivational banner: *“Take the next step in your career with Tech EduVate!”*  
+- CTA button: **Enroll Today**.  
+
+### Footer
+- Same global footer with logo, links, social icons.  
+
+---
+
+## Technical Implementation
+1. Update **React Router** in `App.jsx` (or equivalent) to add 5 new routes:  
+   - `/courses/devops`  
+   - `/courses/devsecops`  
+   - `/courses/aws`  
+   - `/courses/azure`  
+   - `/courses/gcp`  
+
+2. Each route should render a **CourseDetail component** with props (title, description, outline, duration, price).  
+
+3. On the **Courses Page**, make the **"Learn More"** button on each card link to the corresponding detail page.  
+
+4. Payment section:  
+   - Add a styled checkout card with **Stripe/PayPal placeholder**.  
+   - Keep design consistent (hover effects, button animations).  
+
+---
+
+## Example CourseDetail Component Structure
+```jsx
+<CourseDetail
+  title="DevOps Mastery"
+  description="Learn CI/CD, Kubernetes, Docker, and infrastructure automation with hands-on projects."
+  duration="10 weeks"
+  price="₹19,999"
+  outline={[
+    "Introduction to DevOps",
+    "Version Control with Git & GitHub",
+    "CI/CD Pipelines (Jenkins, GitLab, GitHub Actions)",
+    "Containers & Docker",
+    "Kubernetes Fundamentals",
+    "Monitoring with Prometheus & Grafana",
+    "Infrastructure as Code (Terraform, Ansible)",
+    "Capstone Project"
+  ]}
+/>

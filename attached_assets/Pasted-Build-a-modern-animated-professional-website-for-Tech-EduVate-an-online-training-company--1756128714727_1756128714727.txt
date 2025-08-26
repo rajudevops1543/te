@@ -1,0 +1,54 @@
+Build a **modern, animated, professional website** for **Tech EduVate**, an online training company.  
+
+## Design Requirements
+- Copy **design style, background animations, button animations, fonts, and color palette** from this reference: [https://reactheme.com/products/wordpress/aivent/demo-2/](https://reactheme.com/products/wordpress/aivent/demo-2/).
+- The layout should be **clean, elegant, and corporate-modern**.
+- Include **animated backgrounds, gradient overlays, smooth hover effects, and interactive button animations**.
+- Generate a **clean, professional logo** with the company name: **Tech EduVate**.  
+  - Logo style: minimal, modern, tech-focused, with a touch of gradient.
+
+## Content
+### Hero Section
+- Headline: **"Master DevOps & Cloud with Tech EduVate"**
+- Subheadline: **"Industry-recognized courses to launch and accelerate your tech career."**
+- Call-to-Action buttons: **"Explore Courses"** (primary) and **"Get Started"** (secondary).
+
+### Courses Section (Showcase 5 cards with hover animations)
+1. **DevOps Mastery** – Learn CI/CD, automation, Kubernetes, Docker, and modern pipeline workflows.  
+2. **DevSecOps Essentials** – Secure your pipelines with best practices, SAST, DAST, IaC security.  
+3. **AWS Cloud Professional** – Hands-on labs with EC2, S3, Lambda, EKS, IAM, and networking.  
+4. **Microsoft Azure Expert** – Master Azure DevOps, AKS, Functions, Security, and Cloud Architecture.  
+5. **Google Cloud Platform (GCP)** – Learn Compute Engine, BigQuery, Kubernetes, and AI integrations.  
+
+### Why Choose Tech EduVate
+- Expert Trainers with industry experience.  
+- Real-world projects and hands-on labs.  
+- Certification-ready training.  
+- Lifetime access to resources.  
+
+### Testimonials Section
+- 3–4 student testimonials in a carousel with photos, names, and job titles.  
+
+### Pricing Section
+- Simple pricing cards for **Individual Plans**, **Corporate Training**, and **Custom Learning Paths**.  
+
+### Call-to-Action
+- Bold section with **“Kickstart Your Cloud Journey Today!”** + animated button **“Enroll Now”**.  
+
+### Contact Section
+- Contact form (Name, Email, Message).  
+- Info box: Email, Phone, Location.  
+
+### Footer
+- Logo + tagline: *"Empowering Careers in Cloud & DevOps"*  
+- Links: Courses, About, Contact, Privacy Policy.  
+- Social icons: LinkedIn, Twitter, YouTube.  
+
+---
+
+## Technical
+- Use **React + Tailwind** structure.  
+- All sections should be responsive (desktop, tablet, mobile).  
+- Smooth scroll navigation for top menu.  
+- Include background **shapes, particles, or gradient wave animations** for modern feel.  
+- Keep site SEO-optimized with meta tags.  
