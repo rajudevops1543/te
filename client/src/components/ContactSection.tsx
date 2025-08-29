@@ -80,7 +80,7 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      value: "info@techuduvate.com",
+      value: "info@techeduvate.com",
       color: "text-blue-400",
       bgColor: "bg-blue-500/20"
     },
